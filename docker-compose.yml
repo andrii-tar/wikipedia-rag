@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: Rag-lab-7
+    volumes:
+      - .:/app  # Mount the current directory to /app in the container (for development)
+    ports:
+      - "7860:7860"  # Example port mapping, adjust if necessary
+    environment:
+      - PYTHONUNBUFFERED=1  # To avoid buffering the output in logs
+    command: ["python", "main.py"]
