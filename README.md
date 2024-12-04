@@ -47,7 +47,7 @@ https://github.com/andrii-tar/wikipedia-rag.git
    ```bash
    git clone https://github.com/andrii-tar/wikipedia-rag.git
    
-2. Виконати команду для запуску з Docker:
+2. Виконати команду для запуску з Docker з папки проекту:
 
     ``` bash
     docker-compose up --build
