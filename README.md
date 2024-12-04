@@ -40,12 +40,12 @@
 ### Посилання на запущений сервіс:
 - Сервіс розгортається локально у **Docker** з репозиторію.
 - **Посилання на source code:**
-    Source Code Repository
+https://github.com/andrii-tar/wikipedia-rag.git
 
 ## Інструкції з запуску:
 1. Для розгортання проєкту, клонувати репозиторій:
    ```bash
-   git clone <url_example>
+   git clone https://github.com/andrii-tar/wikipedia-rag.git
    
 2. Виконати команду для запуску з Docker:
 
