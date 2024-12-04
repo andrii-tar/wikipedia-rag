@@ -3,7 +3,7 @@ version: '3.8'
 services:
   app:
     build: .
-    container_name: Rag-lab-7
+    container_name: Rag-lab-5
     volumes:
       - .:/app  # Mount the current directory to /app in the container (for development)
     ports:
